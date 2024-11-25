@@ -10,14 +10,14 @@ public class PrintPlanet {
         List<String> attributes = new ArrayList<>();
         attributes.add("Name: " + planet.getName());
         attributes.add("Number of satellites: " + planet.getNumberOfSatellites());
-        attributes.add("Mass: " + planet.getMass() + "kg");
-        attributes.add("Volume: " + planet.getVolume() + "km³");
-        attributes.add("Diameter: " + planet.getDiameter() + "km");
-        attributes.add("Average distance from Sun: " + planet.getAverageDistanceFromSun() + "million km");
+        attributes.add("Mass: " + planet.getMass() + " kg");
+        attributes.add("Volume: " + planet.getVolume() + " km³");
+        attributes.add("Diameter: " + planet.getDiameter() + " km");
+        attributes.add("Average distance from Sun: " + planet.getAverageDistanceFromSun() + " million km");
         attributes.add("Planet type: " + planet.getPlanetType());
         attributes.add("Visible to naked eye: " + planet.isVisibleToNakedEye());
-        attributes.add("Orbital period: " + planet.getOrbitalPeriod() + "years");
-        attributes.add("Rotation period: " + planet.getRotationPeriod() + "days");
+        attributes.add("Orbital period: " + planet.getOrbitalPeriod() + " years");
+        attributes.add("Rotation period: " + planet.getRotationPeriod() + " days");
 
         for (String attribute : attributes) {
             System.out.println(attribute);
@@ -25,6 +25,6 @@ public class PrintPlanet {
 
         System.out.println("-----------------------");
         System.out.println("Density: " + planet.calculateDensity() + " kg/km³");
-        System.out.println("Is it an outer planet? " + planet.isOuterPlanet());
+        System.out.println("Is it an outer planet? " + (planet.isOuterPlanet() ? "Yes" : "No"));
     }
 }
