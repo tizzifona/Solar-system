@@ -12,6 +12,7 @@ public final class App {
         Planet planet2 = new Planet("Venus", 0, 4.867e24, 9.2843e11, 12104, 108200000, PlanetType.TERRESTRIAL, false,
                 1, 243);
 
+        System.out.println();
         System.out.println("=== Planet 1 ===");
         PrintPlanet.planetInfo(planet1);
 
