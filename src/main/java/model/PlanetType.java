@@ -1,5 +1,7 @@
 package model;
 
-public class PlanetType {
-
+public enum PlanetType {
+    GAS, 
+    TERRESTRIAL, 
+    DWARF 
 }
