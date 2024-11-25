@@ -16,6 +16,8 @@ public class PrintPlanet {
         attributes.add("Average distance from Sun: " + planet.getAverageDistanceFromSun() + "million km");
         attributes.add("Planet type: " + planet.getPlanetType());
         attributes.add("Visible to naked eye: " + planet.isVisibleToNakedEye());
+        attributes.add("Orbital period: " + planet.getOrbitalPeriod() + "years");
+        attributes.add("Rotation period: " + planet.getRotationPeriod() + "days");
 
         for (String attribute : attributes) {
             System.out.println(attribute);
