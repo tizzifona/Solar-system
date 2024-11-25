@@ -34,7 +34,7 @@ public class AppTest {
         assertThat(output, containsString("Diameter: 12742 km"));
         assertThat(output, containsString("Average distance from Sun: 149600000 million km"));
         assertThat(output, containsString("Planet type: TERRESTRIAL"));
-        assertThat(output, containsString("Visible to naked eye: true"));
+        assertThat(output, containsString("Visible to naked eye: Yes"));
         assertThat(output, containsString("Orbital period: 1 years"));
         assertThat(output, containsString("Rotation period: 1 days"));
 
@@ -46,7 +46,7 @@ public class AppTest {
         assertThat(output, containsString("Diameter: 12104 km"));
         assertThat(output, containsString("Average distance from Sun: 108200000 million km"));
         assertThat(output, containsString("Planet type: TERRESTRIAL"));
-        assertThat(output, containsString("Visible to naked eye: false"));
+        assertThat(output, containsString("Visible to naked eye: No"));
         assertThat(output, containsString("Orbital period: 1 years"));
         assertThat(output, containsString("Rotation period: 243 days"));
     }
