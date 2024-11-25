@@ -15,7 +15,7 @@ public class PrintPlanet {
         attributes.add("Diameter: " + planet.getDiameter() + " km");
         attributes.add("Average distance from Sun: " + planet.getAverageDistanceFromSun() + " million km");
         attributes.add("Planet type: " + planet.getPlanetType());
-        attributes.add("Visible to naked eye: " + planet.isVisibleToNakedEye());
+        attributes.add("Visible to naked eye: " + (planet.isVisibleToNakedEye() ? "Yes" : "No"));
         attributes.add("Orbital period: " + planet.getOrbitalPeriod() + " years");
         attributes.add("Rotation period: " + planet.getRotationPeriod() + " days");
 
