@@ -69,7 +69,7 @@ public class Planet {
 
     public double calculateDensity() {
         if (volume != 0) {
-            return mass / volume;
+            return mass / (volume * 1e9);
         } else {
             return 0;
         }
