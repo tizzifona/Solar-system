@@ -41,7 +41,7 @@ Volume: 1.08321E12 km³
 Diameter: 12742 km
 Average distance from Sun: 149600000 million km
 Planet type: TERRESTRIAL
-Visible to naked eye: true
+Visible to naked eye: Yes
 Orbital period: 1 years
 Rotation period: 1 days
 -----------------------
@@ -56,7 +56,7 @@ Volume: 9.2843E11 km³
 Diameter: 12104 km
 Average distance from Sun: 108200000 million km
 Planet type: TERRESTRIAL
-Visible to naked eye: false
+Visible to naked eye: No
 Orbital period: 1 years
 Rotation period: 243 days
 -----------------------
