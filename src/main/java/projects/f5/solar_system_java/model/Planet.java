@@ -1,4 +1,4 @@
-package model;
+package projects.f5.solar_system_java.model;
 
 public class Planet {
     private String name = null;

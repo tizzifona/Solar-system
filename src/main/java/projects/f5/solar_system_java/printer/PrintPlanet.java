@@ -1,9 +1,9 @@
-package printer;
+package projects.f5.solar_system_java.printer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Planet;
+import projects.f5.solar_system_java.model.Planet;
 
 public class PrintPlanet {
     public static void planetInfo(Planet planet) {
